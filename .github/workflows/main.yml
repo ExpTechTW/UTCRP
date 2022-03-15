@@ -10,9 +10,4 @@ jobs:
       with:
         type: 'zip'
         filename: 'release.zip'
-        exclusions: '*.md LICENSE *.gitignore *.git* .github/*'
-    - name: Upload Release
-      uses: ncipollo/release-action@v1
-      with:
-        artifacts: "release.zip"
-        token: ${{ secrets.GITHUB_TOKEN }}
+        exclusions: '*.git* /*node_modules/* .editorconfig'
