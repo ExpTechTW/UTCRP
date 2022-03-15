@@ -11,5 +11,7 @@ jobs:
         type: 'zip'
         filename: 'release.zip'
         exclusions: '*.md LICENSE *.gitignore *.git* .github/*'
-    outputs:
-      version: ${{ steps.step_version.outputs.version }}
+    - uses: actions/upload-artifact@v3
+      with:
+        name: my-artifact
+        path: path/to/artifact/world.txt
