@@ -8,7 +8,7 @@ jobs:
     - name: Archive Release
       uses: thedoctor0/zip-release@master
       with:
-        path: './'
+        path: '/'
         type: 'zip'
         filename: 'release.zip'
         exclusions: '*.md LICENSE *.gitignore *.git* .github/*'
