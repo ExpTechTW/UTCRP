@@ -10,4 +10,4 @@ jobs:
       with:
         type: 'zip'
         filename: 'release.zip'
-        exclusions: '*.md LICENSE *.gitignore'
+        exclusions: '*.md LICENSE *.gitignore *.git* .github/*'
