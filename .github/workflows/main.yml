@@ -11,7 +11,8 @@ jobs:
         type: 'zip'
         filename: 'release.zip'
         exclusions: '*.md LICENSE *.gitignore *.git* .github/*'
-    - uses: actions/upload-artifact@v1
+    - name: Upload Release
+      uses: ncipollo/release-action@v1
       with:
-        name: my-artifact
-        path: './result.zip'
+        artifacts: "release.zip"
+        token: ${{ secrets.GITHUB_TOKEN }}
