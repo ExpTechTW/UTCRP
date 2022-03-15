@@ -13,5 +13,5 @@ jobs:
         exclusions: '*.md LICENSE *.gitignore *.git* .github/*'
     - uses: actions/upload-artifact@v3
       with:
-        name: my-artifact
-        path: path/to/artifact/world.txt
+        name: 'release.zip'
+        path: path/to/artifact/release.zip
