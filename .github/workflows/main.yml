@@ -13,5 +13,5 @@ jobs:
         exclusions: '*.md LICENSE *.gitignore *.git* .github/*'
     - uses: actions/upload-artifact@v3
       with:
-        name: 'UTCRP.zip'
+        name: 'UTCRP-${{github.run_id}}.zip'
         path: release.zip
