@@ -1,5 +1,5 @@
 # UTCRP
-Universal Traditional Chinese Resource Pack (通用繁體中文資源包)
+Universal Traditional Chinese Resource Pack ( 通用繁體中文資源包 )
 
 ## 文檔
 - 下載後直接將 Zip 檔案放至 `resourcepacks` 文件夾中
